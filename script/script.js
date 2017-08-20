@@ -5,8 +5,8 @@ function getRandomInRange(min, max) {
 var z = 0;
 
 for (var x = 0; x < 10; x++) {
-    var a = (getRandomInRange(1, 9));
-    var b = (getRandomInRange(1, 9));
+    var a = (getRandomInRange(1, 99));
+    var b = (getRandomInRange(1, 99));
     var res = a * b;
 
     var vod = (prompt(a + " * " + b + " =? "));
