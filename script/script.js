@@ -4,7 +4,7 @@ function getRandomInRange(min, max) {
 
 var z = 0;
 
-for (var x = 0; x < 10; x++) {
+for (var x = 0; x < 4; x++) {
     var a = (getRandomInRange(1, 20));
     var b = (getRandomInRange(1, 99));
     var res = a * b;
@@ -23,4 +23,4 @@ for (var x = 0; x < 10; x++) {
     }
 
 }
-alert("Вы дали " + z + " правильных ответов из 10")
+alert("Вы дали " + z + " правильных ответов из 4")
