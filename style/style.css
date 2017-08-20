@@ -1,1 +1,24 @@
-/* новое меню */
+img{
+    float: right;
+}
+body{margin: 0;
+    background-color: #FFFFFF;}
+
+.text{
+    font-size: 94px;
+    float: right;
+    display: block;
+    position: absolute;
+    left: 30%;
+    top:6%;
+    border: 8px solid #008651;
+    padding: 52px;
+    background: #A75434;
+    border-radius: 100px;
+    box-shadow: 0 3px 12px black;
+    text-shadow: 1px 3px 5px #5F564F;
+    
+    text-decoration: none;
+    color: #26AEFF;
+    box-shadow: inset 1px 2px 15px black;
+}
