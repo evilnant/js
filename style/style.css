@@ -84,3 +84,7 @@ h3{
 #dva{
     float: right;
 }
+.centr img:hover{
+    transform: rotate(1080deg);
+    transition: all 3s;
+}
