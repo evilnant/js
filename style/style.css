@@ -1,31 +1,31 @@
-.wrapper{
+.wrapper {
     margin: 0 auto;
     overflow: hidden;
-
 }
-.header{
+
+.header {
     background: white;
-   
 }
 
-.header img{
+.header img {
     width: 24%;
     float: right;
-    
 }
 
-#leftd{
+#leftd {
     transform: scale(-1, 1);
-    
     float: left;
 }
-body{margin: 0;
-    background-color: #FFFFFF;}
 
-.text{
+body {
+    margin: 0;
+    background-color: #FFFFFF;
+}
+
+.text {
     margin-top: 3%;
-    font-size: 6vw;   
-     display: inline-block;
+    font-size: 6vw;
+    display: inline-block;
     text-align: center;
     border: 8px solid #008651;
     padding: 4%;
@@ -38,54 +38,54 @@ body{margin: 0;
     margin-left: 9%;
 }
 
-.centr{
-    
-     background: green;
-     min-height: 32px;
-     border-top: 5px solid;
+.centr {
+    background: green;
+    min-height: 32px;
+    border-top: 5px solid;
     border-bottom: 5px solid;
     display: flex;
     justify-content: space-around;
-    
 }
-.vid{
-    margin-top: 15px;
-    height:509px;
-    width: 850px;
-    
 
+.vid {
+    margin-top: 15px;
+    height: 509px;
+    width: 850px;
 }
-.video{
+
+.video {
     display: flex;
     justify-content: center;
-    background:#962E2E;
+    background: #962E2E;
     padding-bottom: 15px;
-    
 }
-.footer{
+
+.footer {
     border-top: 5px solid;
     background: green;
     min-height: 42px;
 }
-h3{
+
+h3 {
     text-align: center;
     display: inline-block
 }
-.centr img{
+
+.centr img {
     margin-top: 5px;
     height: 52px;
     display: inline-block;
-    
 }
 
-#op{
+#op {
     float: left;
 }
-#dva{
+
+#dva {
     float: right;
 }
-.centr img:hover{
+
+.centr img:hover {
     transform: rotate(1080deg);
     transition: all 3s;
 }
-
