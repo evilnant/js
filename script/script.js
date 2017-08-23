@@ -37,6 +37,7 @@ if (want == true) {
         var a = (getRandomInRange(1, zlo));
         var b = (getRandomInRange(1, zlo));
         var Op = (getRandomInRange(1, 4));
+        var op = "*";
 
         if (Op == 1) {
             op = "-";
@@ -63,11 +64,11 @@ if (want == true) {
 
         res = mathOp(a, b, op)
 
-        var vod = (prompt(a + " " + op + " " + b + " =? "));
+        var vod = (prompt(x+1 +"/"+ count + " испытание. \n \n        "+ a + " " + op + " " + b + " =? "));
 
 
         while (vod != res) {
-            alert("Неправильно, попробуй ещё =)");
+            alert("Неправильно, попробуй ещё раз!");
             vod = (prompt(a + " " + op + " " + b + " =? "));
             z = z + 1
         }
